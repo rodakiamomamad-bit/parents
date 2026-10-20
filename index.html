@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>برای مامان و بابا</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="theme" id="theme" aria-label="تغییر تم">🌓</button>
+
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="chip" id="date">…</div>
+  <div class="clock" id="clock">۰۰:۰۰</div>
+  <h1><span id="greet">سلام</span><br><span class="grad" id="title">مامان و بابای عزیزم</span></h1>
+  <p>این صفحه کوچک، فقط برای شماست؛ برای همه‌ی مهربانی‌هایی که هیچ‌وقت درست و حسابی بهشون «ممنون» نگفتم.</p>
+  <button class="btn" onclick="document.getElementById('letter').scrollIntoView()">بزن بریم ♥</button>
+</section>
+
+<section id="letter">
+  <h2 class="rv">نامه‌ای از ته دل</h2>
+  <p class="sub rv">چند خط ساده، با کلی حرف</p>
+  <div class="letter rv">
+    <p>سلام <span class="who">مامان و بابا</span> جان،</p>
+    <p>شاید همیشه نگفته باشم، ولی هر چی دارم از دعای شما و از زحمت‌های بی‌صدای شماست. شب‌هایی که بیدار موندید تا من راحت بخوابم، فکرهایی که برای آینده‌ی من کردید، و لبخندی که همیشه سر سفره بود.</p>
+    <p>خیلی دوستتون دارم، و ازتون ممنونم که خانه‌ی ما همیشه گرم بوده.</p>
+    <p class="sign">— پسر شما، <span class="from">مهرزاد</span></p>
+  </div>
+</section>
+
+<section id="reasons">
+  <h2 class="rv">دلیل‌های دوست داشتنتون</h2>
+  <p class="sub rv">روی هر کارت بزنید</p>
+  <div class="grid rv" id="grid"></div>
+</section>
+
+<section id="memories">
+  <h2 class="rv">خاطره‌های قشنگ ما</h2>
+  <p class="sub rv">مسیر کوچک یک خانواده‌ی بزرگ</p>
+  <div class="tl" id="tl"></div>
+</section>
+
+<section id="wishes">
+  <h2 class="rv">یک دعا برای شما</h2>
+  <p class="sub rv">هر بار که دکمه را بزنید، یک آرزوی تازه</p>
+  <div class="wish rv">
+    <blockquote id="wishText">سلامتی و آرامش برای شما، همیشه.</blockquote>
+    <button class="btn" id="wishBtn">آرزوی بعدی ✨</button>
+    <div class="count">قلب‌هایی که فرستادید: <b id="hearts">۰</b></div>
+    <button class="btn" id="love" style="margin-top:14px;background:linear-gradient(120deg,var(--a3),var(--a1))">دوستتون دارم ❤</button>
+  </div>
+  <footer>ساخته شده با ❤ توسط <span class="from">مهرزاد</span></footer>
+</section>
+
+<nav id="nav">
+  <a href="#home" class="on"><i>🏠</i>خانه</a>
+  <a href="#letter"><i>💌</i>نامه</a>
+  <a href="#reasons"><i>💎</i>دلیل‌ها</a>
+  <a href="#memories"><i>📸</i>خاطره</a>
+  <a href="#wishes"><i>🤲</i>دعا</a>
+</nav>
+
+<script src="js/app.js"></script>
+</body>
+</html>
